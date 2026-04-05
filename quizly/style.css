@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+body {
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    min-height: 100vh;
+    backdrop-filter: blur(4px);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    z-index: 100
+}
+
+.header a{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    filter: drop-shadow(0 0 5px #09001d);
+}
+
+.header span{
+    color: plum;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration:none;
+    font-weight: 700;
+    filter: drop-shadow(0 0 5px #09001d);
+    letter-spacing: 1.5px;
+}
+
+span{
+    color: rgb(173, 87, 173)
+}
+
+.home {
+    height: 100vh;              
+    width: 100%;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;      
+    color: #fff;
+    padding-top: 60px;          
+}
+
+.content {
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.content button {
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: plum;
+    border: 3px solid #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px plum;
+    transition: .4s ease;
+}
+
+.content button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.content span{
+    color: plum;
+    font-weight: bolder;
+}
+
+.section {
+    text-align: center;
+    width: 50rem;
+    height: 60vh;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    
+}
+
+.title{
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(173, 87, 173);
+}
+
+.section p{
+    margin-left: 4rem;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.quiz-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ button {
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: plum;
+    border: 3px solid #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px plum;
+    transition: .4s ease;
+}
+
+ button:hover {
+    transform: scale(1.1);
+    background-color: rgb(173, 87, 173);
+}
+
+button i {
+    margin-left: 8px; 
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer button {
+    width: 150px;
+    height: 40px;
+    padding: 8px 16px;
+}
+
+.timer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: -1rem;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ddd, #f3e6f9);
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(173, 87, 173, 0.4);
+}
+
+.timer-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(173, 87, 173);
+    letter-spacing: 1px;
+}
+
+.timer-sec {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(173, 87, 173);
+    padding: 8px 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px plum;
+    min-width: 50px;
+    text-align: center;
+}
+
+.result {
+    margin-top: 1rem;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.result p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(plum 0% 0%, #ddd 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(173, 87, 173);
+    box-shadow: 0 0 10px rgba(173, 87, 173, 0.5);
+}
+
+.circle span {
+    position: absolute;
+}
+
